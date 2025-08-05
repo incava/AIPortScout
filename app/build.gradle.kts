@@ -47,6 +47,14 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
 
+    // RxKotlin
+    implementation(libs.rxkotlin)
+    implementation(libs.rxandroid)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
 
 
     implementation(libs.androidx.core.ktx)
